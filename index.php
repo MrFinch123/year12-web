@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <body>
- 
+    <p>hello</p>
 <?php
 echo "My first PHP script!";
 $db = new SQLite3('db.db');
