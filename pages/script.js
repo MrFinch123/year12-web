@@ -11,8 +11,8 @@ document.getElementById("myButton").onclick = function(){
     password = document.getElementById("myText1").value;
     console.log(password);
 
-    document.getElementById("myText").value = null;
-    document.getElementById("myText1").value = null;
+    // document.getElementById("myText").value = null;
+    // document.getElementById("myText1").value = null;
 };
 };
 
