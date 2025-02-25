@@ -1,0 +1,235 @@
+*{
+padding: 0px;
+margin: 0px;
+font-family: 'Segoe UI';
+/*This is the whole site styles the padding and the margin are to remove the google standard*/
+
+/*#FFE45E- Yellow Color*/
+};
+
+body{
+/*This styles the body*/
+
+}
+
+.top-content{
+    font-weight: bolder;
+    font-size: xx-large;
+    display: flex;
+    background: linear-gradient(#5AA9E6,80%,#7FC8F8);
+    justify-content: center;
+    gap: 20px;
+
+.logo{
+    
+    height: 120px;
+    width: 150px;
+    padding-top: 20px;
+
+}
+.p-lock{
+    height: 100px;
+    width: 70px;
+    padding-top: 20px;
+
+}
+
+h1{
+    text-align: center;
+    color: #fd8607;
+    text-shadow: 2px 2px #000000;    
+    /*color: #F9F9F9;*/
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+    
+}
+
+.nav-bar{
+/*This styles the navigation bar*/
+list-style-type:none;
+display: flex;
+justify-content: center;
+padding-top: 20px;
+padding-bottom: 20px;
+background: linear-gradient(#7FC8F8,90%,#5AA9E6);
+}
+.nav-el{
+/*This styles the elements / links inside the nav bar*/
+display: flex;
+flex-direction: row;
+gap: 100px;
+
+button{
+background: linear-gradient(#fd8607,90%,#F5F5F5);
+border-radius: 25px;
+margin-bottom: 5px;
+height: 70px;
+width: 250px;
+font-size: 45px;
+font-style: oblique;
+border: none;
+}
+
+button:hover{
+    background-color:#437CA8;
+    color: white;
+    background: linear-gradient(#000000,95%,white);
+    a{
+        color: white;
+        text-decoration: none;
+    }
+}
+
+a{
+text-decoration: none;
+}
+a:link { 
+color: black;
+}
+a:visited {
+    color: black;
+}
+
+a:active { 
+    color: black;
+}
+.link-test{
+    width: 250px;
+    height: 70px;
+    background-color: #42ec0e;
+}
+
+}
+
+.mid-content{
+/*This styles the mid content*/
+background-color: white;
+p{
+    text-align: center;
+}
+h2{
+    font-size: 50px;
+    text-align: center;
+}
+hr{
+    height: 5px;
+    background-color: #fd8607;
+}
+}
+
+
+.Log-in{
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 2%;
+    display: flex;
+    padding-left: 10px;
+    flex-direction: column;
+    font-size: xx-large;
+    gap: 0px;
+    text-align: center;
+    background-color: hsl(0, 0%, 85%);
+    width: 400px;
+    border-style:solid;
+    border-radius: 20px;
+    font-style: oblique;
+    font-weight:450 ;
+
+    input{
+        width: 300px;
+        font-size: x-large;
+        align-self: center;
+    }
+    button{
+        width: 300px;
+        height: 50px;
+        font-size: 23px;
+        border-radius: 5px;
+        margin-top: 20px;
+        align-self: center;
+        font-size: 35px;
+        a{
+            text-decoration: none;
+        }
+
+        a:link { 
+            color: black;
+        }
+    
+        a:visited {
+            color: black;
+    }
+      
+
+    }
+    h2{
+        font-size: 30px;
+    }
+    button:hover{
+        background: linear-gradient(#437CA8,95%,white);  
+    }
+    .myButton2{
+        background: linear-gradient(#7FC8F8,90%,#5AA9E6);
+    }
+    .myButton3{
+        background: linear-gradient(#42ec0e,90%,#ffffff);
+        margin-bottom: 20px;
+    a{
+    text-decoration: none;
+    }
+    a:link { 
+    color: black;
+    }
+    a:visited {
+        color: black;
+    }
+        
+    }
+    .myButton2:hover{
+    color: white;
+    background: linear-gradient(#437CA8,95%,white); 
+    }
+}
+.meme{
+    display: flex;
+    height: 500px;
+    margin-left:20%;
+}
+
+.prod-img{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    img{
+        height: 250px;
+        width: 200px;
+        align-self: center;
+       }
+
+    hr{
+        margin-top: 5px;
+        margin-bottom: 5px;
+        height: 3px;
+        background-color: #000000;
+    }
+    h3{
+        font-size: 30px;
+    }
+}
+
+.left-content{
+/*This styles the left content*/
+float: left;
+}
+
+.right-content{
+/*This styles the right content*/
+float: right;
+}
+
+.footer-content{
+/*This styles the footer content*/
+
+}
