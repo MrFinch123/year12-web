@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Unit6 Template/styles/style.css">
+    <script src="/Unit6 Template/scripts/script.js"></script>
+    <link rel="icon" type="image/x-icon" href="/Unit6 Template/JontyLogo.png">
+    <title>Jontys Locksmiths</title>
+</head>
+<body>
+
+<div class = "top-content">
+    <img class="logo" src="/Unit6 Template/JontyLogo.png" alt="Locksmiths Logo">
+    <h1>Jontys Locksmiths</h1>
+    <img class ="p-lock" src="/Unit6 Template/lockClosed.png"
+    onMouseOver="MouseRollover(this)" 
+    onMouseOut="MouseOut(this)"
+    onclick="SecretImg()"
+    >
+    <script>
+        //Roll over image + secret link navigation
+    function MouseRollover(MyImage) {
+    MyImage.src = "/Unit6 Template/lockOpen.png";
+    }
+    function MouseOut(MyImage) {
+    MyImage.src = "/Unit6 Template/lockClosed.png";
+    }
+    </script>
+</div>
+
+
+<div class="nav-bar">
+    <div class="nav-el">
+        <button id = Home onclick="Home()">Home</button>
+        <button id = Products onclick="Products()">Products</button>
+        <button id = Fees onclick="Fees()">Fees</button>
+        <button id = ContactUs onclick="ContactUs()">Contact-Us</button>
+        <div class="Sign-in">
+        <button id = Sign onclick="Sign()"><a href="/Unit6 Template/pages/page2.html">Sign In</a></button>
+        </div>
+    </div>
+</div>
+
+<div class = mid-content>
+<hr>
+<h2>Home</h2>
+<hr>
+<br>
+<p>Welcome to Jontys Locksmiths we provide the best locksmith services this side of the midlands</p>
+<p>At Jontys we have a saying <q>If Jonty cant get into the lock then its not comin off</q></p>
+<br>
+<br>
+<br>
+<br>
+<br>
+</div>
+
+<div class = left-content>
+    
+</div>
+
+<div class = right-content>
+    
+</div>
+
+<div class = footer-content>
+    
+</div>
+
+
+</body>
+</html>
