@@ -23,27 +23,27 @@ document.getElementById("myButton").onclick = function(){
 // Navigation
 
 function SecretImg(MyImage){
-    window.location.href = "/Unit6 Template/pages/Secret.html";
+    window.location.href = "Secret.html";
 }
 
 function Home(Home){
-    window.location.href = "/Unit6 Template/pages/index.html";
+    window.location.href = "index.html";
 }
 
 function Products(Products){
-    window.location.href = "/Unit6 Template/pages/products.html";
+    window.location.href = "products.html";
 }
 
 function Fees(Fees){
-    window.location.href = "/Unit6 Template/pages/fees.html";
+    window.location.href = "fees.html";
 }
 
 function ContactUs(ContactUs){
-    window.location.href = "/Unit6 Template/pages/contactus.html";
+    window.location.href = "contactus.html";
 }
 
 function Sign(Sign){
-    window.location.href = "/Unit6 Template/pages/page2.html";
+    window.location.href = "page2.html";
 }
 
 
