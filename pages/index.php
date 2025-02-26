@@ -1,3 +1,7 @@
+<?php
+    $x = "hidden";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -49,6 +53,21 @@
 <br>
 <p>Welcome to Jontys Locksmiths we provide the best locksmith services this side of the midlands</p>
 <p>At Jontys we have a saying <q>If Jonty cant get into the lock then its not comin off</q></p>
+
+<?php
+    include 'functions.php';
+    echo "<br>";
+
+    if (getCookie() != "") {
+        if (checkCookie(getCookie())) {
+            echo "Welcome back " . userNameFromID(checkCookie(getCookie()));
+        } else {
+            echo "Please sign in";
+        }
+    } else {
+        echo "Please sign in";
+    }
+?>
 <br>
 <br>
 <br>
