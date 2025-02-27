@@ -12,6 +12,7 @@ body{
 
 }
 
+
 .top-content{
     font-weight: bolder;
     font-size: xx-large;
@@ -115,6 +116,9 @@ h2{
 hr{
     height: 5px;
     background-color: #fd8607;
+}
+.Logged-in{
+    font-size: large;
 }
 }
 

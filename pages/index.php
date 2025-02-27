@@ -54,6 +54,7 @@
 <p>Welcome to Jontys Locksmiths we provide the best locksmith services this side of the midlands</p>
 <p>At Jontys we have a saying <q>If Jonty cant get into the lock then its not comin off</q></p>
 
+<div class="Logged-in">
 <?php
     include 'functions.php';
     echo "<br>";
@@ -68,6 +69,7 @@
         echo "Please sign in";
     }
 ?>
+</div>
 <br>
 <br>
 <br>
