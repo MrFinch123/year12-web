@@ -1,7 +1,3 @@
-<?php
-    $x = "hidden";
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -57,17 +53,17 @@
 <div class="Logged-in">
 <?php
     include 'functions.php';
-    echo "<br>";
+echo "<br>";
 
-    if (getCookie() != "") {
-        if (checkCookie(getCookie())) {
-            echo "Welcome back " . userNameFromID(checkCookie(getCookie()));
-        } else {
-            echo "Please sign in";
-        }
+if (getCookie() != "") {
+    if (checkCookie(getCookie()) != -1) {
+        echo "Welcome back " . userFromID(checkCookie(getCookie()))["username"];
     } else {
         echo "Please sign in";
     }
+} else {
+    echo "Please sign in";
+}
 ?>
 </div>
 <br>
